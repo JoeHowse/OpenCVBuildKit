@@ -1,0 +1,5 @@
+## Metafiles
+.DS_Store
+
+## Build results
+build/
