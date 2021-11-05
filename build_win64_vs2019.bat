@@ -11,6 +11,7 @@ cmake -DCMAKE_BUILD_TYPE=RELEASE ^
       -DCLAMDFFT_INCLUDE_DIR="../../clFFT-Full-2.12.2-Windows-x64/include" ^
       -DCLAMDFFT_LIBRARY="../../clFFT-Full-2.12.2-Windows-x64/lib64/import/clFFT.lib" ^
       -DOPENCV_EXTRA_MODULES_PATH="../../opencv_contrib/modules" ^
+      -DBUILD_EXAMPLES=ON ^
       -DBUILD_opencv_python2=OFF ^
       -DBUILD_opencv_python3=OFF ^
       -G "Visual Studio 16 2019" -A x64 ^

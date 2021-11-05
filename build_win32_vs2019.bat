@@ -5,6 +5,7 @@ cmake -DCMAKE_BUILD_TYPE=RELEASE ^
       -DWITH_OPENGL=ON ^
       -DWITH_TBB=ON ^
       -DOPENCV_EXTRA_MODULES_PATH="../../opencv_contrib/modules" ^
+      -DBUILD_EXAMPLES=ON ^
       -DBUILD_opencv_python2=OFF ^
       -DBUILD_opencv_python3=OFF ^
       -G "Visual Studio 16 2019" -A Win32 ^
